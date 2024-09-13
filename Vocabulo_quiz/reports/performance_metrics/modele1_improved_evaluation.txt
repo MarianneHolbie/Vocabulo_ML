@@ -1,0 +1,5 @@
+Métriques d'évaluation des recommandations:
+precision: 0.0010
+recall: 0.0010
+f1_score: 0.0010
+ndcg: 0.0050
