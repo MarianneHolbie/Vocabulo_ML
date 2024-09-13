@@ -1,0 +1,35 @@
+graph TD
+    A[Start] --> B[Connect to Database]
+    B --> C[Prepare Training Data]
+    C --> D[Preprocess Data]
+    D --> E[Split Data]
+    E --> F[Train XGBoost Model]
+    F --> G[Optimize Hyperparameters with Optuna]
+    G --> H[Evaluate Model]
+    H --> I[Interpret Model]
+    I --> J[Save Model and Results]
+    J --> K[Generate Recommendations]
+    K --> L[End]
+
+    subgraph Data Preparation
+        C1[Fetch Data from DB] --> C2[Process Temporal Features]
+        C2 --> C3[Handle Categorical Variables]
+        C3 --> C4[Create Cyclical Features]
+    end
+
+    subgraph Model Training
+        F1[Create XGBoost Classifier] --> F2[Define Objective Function]
+        F2 --> F3[Use Pipeline with Preprocessor]
+    end
+
+    subgraph Hyperparameter Optimization
+        G1[Define Parameter Space] --> G2[Use Optuna for Optimization]
+        G2 --> G3[Select Best Hyperparameters]
+    end
+
+    subgraph Recommendation Generation
+        K1[Get User Level] --> K2[Fetch Candidate Words]
+        K2 --> K3[Predict Probabilities]
+        K3 --> K4[Calculate Recommendation Scores]
+        K4 --> K5[Select Diverse Words]
+    end
