@@ -3,7 +3,8 @@
 ## Overview
 
 This document outlines the current deployment architecture and processes for the Vocabulo ML project, encompassing both
-Vocabulo Quiz and Vocabulo Junior applications. The deployment leverages Docker containerization for consistency and ease of management, with FastAPI serving as the API framework for each model.
+Vocabulo Quiz and Vocabulo Junior applications. The deployment leverages Docker containerization for consistency and ease
+of management, with FastAPI serving as the API framework for each model.
 
 ## Deployment Architecture
 
@@ -27,7 +28,8 @@ Each major component of the system runs in its own container, allowing for indep
 
 ### Network Configuration
 
-All containers are deployed on a single Docker network to ensure secure inter-container communication while maintaining isolation from external networks.
+All containers are deployed on a single Docker network to ensure secure inter-container communication while maintaining 
+isolation from external networks.
 
 ![deployement](deployment.svg)
 
@@ -82,7 +84,7 @@ docker exec -i $(docker-compose ps -q postgres) psql -U $POSTGRES_USER -d $POSTG
 ### API Access
 
 * Vocabulo Quiz API is accessible at http://localhost:8000
-* Vocabulo Junior API is accessible at http://localhost:8001
+* Vocabulo Junior API is accessible at http://localhost:8000
 
 Each API provides specific endpoints for its respective functionality. Refer to the API documentation for details on
 available routes and usage.
