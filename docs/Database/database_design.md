@@ -9,7 +9,7 @@ Vocabulo Junior applications. This document outlines the database schema, key re
 
 The database consists of several interconnected tables, each serving a specific purpose in the Vocabulo ecosystem. 
 Below is a detailed description of each table and its relationships.
-![Schéma de la BDD](./diagramBDD.png)
+![Schéma de la BDD](diagramBDD.png)
 
 ### Core Tables
 
