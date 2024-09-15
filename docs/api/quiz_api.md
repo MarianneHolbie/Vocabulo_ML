@@ -78,10 +78,10 @@ Example error response:
 }
 ```
 
-## Authentication
+## Authorization
 
-Currently, the API does not implement authentication. It's recommended to add authentication in the future for security 
-purposes.
+Currently, the API does not implement authorization, because you should be logged before getting word recommendation.
+It's recommended to add authorization with token in the future for security purposes.
 
 ## Data Models
 
@@ -117,7 +117,7 @@ The API implements logging to track requests and potential issues. Logs are conf
 
 ## Future Enhancements
 
-1. Implement user authentication and authorization
+1. Implement user authorization
 2. Add endpoints for user progress tracking and quiz submission
 3. Implement versioning for the API
 4. Add more detailed error responses

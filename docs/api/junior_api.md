@@ -8,7 +8,7 @@ text processing modules.
 
 ## Base URL
 
-`http://localhost:8000`  # Same port as the Quiz API
+`http://localhost:8000`
 
 ## Endpoints
 
