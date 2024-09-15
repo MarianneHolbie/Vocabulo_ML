@@ -24,6 +24,7 @@ The development of the Vocabulo Quiz recommendation system progressed through se
 4. Advanced hybrid model incorporating collaborative and content-based filtering techniques
 5. Hyperparameter optimization using Optuna
 6. Continuous refinement based on simulated user interactions and performance metrics
+7. Build API with FastAPI on [docker container](https://github.com/TessierV/vocabulo/tree/Marianne_dev/vocabulo_quizz_ml) to provide model to generate daily quiz
 
 The current state-of-the-art model, HybridReco_final, represents the culmination of this iterative development process, 
 offering superior personalization and recommendation accuracy.
