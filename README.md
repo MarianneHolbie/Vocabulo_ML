@@ -46,13 +46,14 @@ separation of concerns.
 
 ## Development Journey
 
-This repository documents our journey in developing and refining the ML models for both applications. Key milestones include:
+This repository documents my journey in developing and refining the ML models for both applications. Key milestones 
+include:
 
 1. Initial data collection and preprocessing
 2. Experimentation with various ML algorithms
 3. Fine-tuning of models for French language specifics
 4. Integration of sign language considerations
-5. Continuous improvement based on user feedback and performance metrics
+5. Continuous improvement based on metrics and fake user
 
 ## Getting Started
 
