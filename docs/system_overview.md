@@ -2,15 +2,19 @@
 
 ## Introduction
 
-The Vocabulo ML project is an innovative language learning platform designed specifically for the deaf community. It comprises two main applications: Vocabulo Quiz and Vocabulo Junior. Both leverage advanced machine learning techniques to deliver personalized and interactive learning experiences. This document provides a comprehensive overview of the system architecture, detailing how these applications interact with shared and individual components.
+The Vocabulo ML project is an innovative language learning platform designed specifically for the deaf community. 
+It comprises two main applications: Vocabulo Quiz and Vocabulo Junior. Both leverage advanced machine learning 
+techniques to deliver personalized and interactive learning experiences. This document provides a comprehensive
+overview of the system architecture, detailing how these applications interact with shared and individual components.
 
 ## System Architecture
 
-Vocabulo ML is built on a microservices architecture using Docker containers. This design ensures scalability, maintainability, and clear separation of concerns between different system components.
+Vocabulo ML is built on a microservices architecture using Docker containers. This design ensures scalability, 
+maintainability, and clear separation of concerns between different system components.
 
 ### Architecture Diagram
 
-![Architecture Diagram](./Projects_Vocabulo-architectur.png)
+![Architecture Diagram](Projects_Vocabulo-architectur.png)
 
 ### Key Components
 
@@ -26,7 +30,7 @@ Ensures data consistency and enables cross-application analysis
 ##### Quiz API:
 
 Handles frontend requests
-Manages user sessions and authentication
+Manages user sessions
 Coordinates interactions between frontend and ML models
 
 
