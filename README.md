@@ -69,6 +69,13 @@ Detailed documentation for each component can be found in the `docs/` directory.
 - Database schema and relationships
 - Deployment guides
 
+## acknowledgements
+
+- [Interpretis](https://www.interpretis.fr/) : Elodie Appert-Collin & Elise Ghienne
+- [Dico Elix](https://dico.elix-lsf.fr/)
+- [Ecole des loisirs](https://www.ecoledesloisirs.fr/)
+- [IRSA](https://www.irsa.fr/): Edit Ibanes & Emma Dirat
+
 ## Author
 
 Marianne Arrué 
