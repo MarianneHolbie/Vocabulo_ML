@@ -43,7 +43,8 @@ user performance.
 
 ## Vocabulo Junior ML Pipeline
 
-The Vocabulo Junior ML pipeline is designed to process images, extract text, and provide contextual understanding for young learners.
+The Vocabulo Junior ML pipeline is designed to process images, extract text, and provide contextual understanding for 
+young learners.
 
 ### Pipeline Stages
 
@@ -99,8 +100,13 @@ in docker network.
 
 ## Model Training and Updating
 
+1. Vocabulo Quiz
 * Initial models are trained offline using fake historical data.
 * Periodic retraining is scheduled to incorporate new data and improve model performance.
+
+2. Vocabulo Junior
+* OCR tessract is finetuned on personnal dataset
+* Training on a larger dataset should be carried out to really improve the model's performance
 
 ## Performance Monitoring
 
@@ -108,6 +114,6 @@ in docker network.
 
 ## Future Enhancements
 
-* Implementation of more advanced NLP techniques for better language understanding.
-* Integration of reinforcement learning for more dynamic word recommendations.
+* Implementation of more advanced NLP techniques for better language understanding for Vocabulo Junior.
 * More finetuning OCR to have best result on kid book (different font, color of background...)
+* Integration of reinforcement learning for more dynamic word recommendations for Vocabulo Quiz.
